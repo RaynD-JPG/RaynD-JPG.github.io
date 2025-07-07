@@ -1,155 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Website Goals - Chill Concept</title>
-
-    <!-- Link to Font Awesome for icons (if needed, good practice to include) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40pgeWZbeCAdgDjsN8r9rFfS628fK2/AHRj27G0b61l2uU6/r2uC9+b+R2I/3PzD1S2f4x5f+Lw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- Link to Google Fonts for 'Montserrat' (or another chill font) -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Link to your COMPILED CSS file. Make sure your style.scss compiles to style.css -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Car Goals - Drive Your Passion</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div class="page-header">
-        <h1>Our Website's Chill Goals</h1>
-        <p>Discover what we're all about, one relaxed step at a time.</p>
+  <div class="page-header">
+    <h1>Our Automotive Passion</h1>
+    <p>Explore the world of cars, one exhilarating detail at a time.</p>
+  </div>
+
+  <div class="wrapper">
+    <!-- CARD 1 -->
+    <div class="card">
+      <input type="checkbox" id="goal1" class="more"/>
+      <div class="card-inner">
+        <div class="card-face front" style="background-image: url('images/porsche-911-front.jpeg');">
+          <div class="text">
+            <span class="brand">PORSCHE</span>
+            <h2>911 GT3</h2>
+            <label for="goal1" class="button">View Details</label>
+          </div>
+        </div>
+        <div class="card-face back">
+          <div class="text">
+            <p>The Porsche 911 GT3, a track-focused machine blending motorsport technology with road-legal exhilaration. Pure driving dynamics, incredible handling, and a high-revving naturally aspirated engine make it a true driver's car.</p>
+            <label for="goal1" class="button return"><i class="fas fa-arrow-left"></i></label>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="wrapper">
-        <!-- Card 1: Goal 1 -->
-        <div class="card">
-            <input type="checkbox" id="goal1" class="more" aria-hidden="true">
-            <div class="content">
-                <div class="front">
-                    <div class="inner">
-                        <span class="card-number">1</span>
-                        <h2>Relax & Explore</h2>
-                        <label for="goal1" class="button" aria-hidden="true">
-                            Uncover
-                        </label>
-                    </div>
-                </div>
-                <div class="back">
-                    <div class="inner">
-                        <p class="description">
-                            Our first goal is to create a serene space where you can unwind and explore new ideas without pressure. It's all about gentle discovery.
-                        </p>
-                        <label for="goal1" class="button return" aria-hidden="true">
-                            <i class="fas fa-arrow-left"></i>
-                        </label>
-                    </div>
-                </div>
-            </div>
+    <!-- CARD 2 -->
+    <div class="card">
+      <input type="checkbox" id="goal2" class="more"/>
+      <div class="card-inner">
+        <div class="card-face front" style="background-image: url('images/Tesla-front.jpeg');">
+          <div class="text">
+            <span class="brand">TESLA</span>
+            <h2>MODEL S PLAID</h2>
+            <label for="goal2" class="button">View Details</label>
+          </div>
         </div>
-
-        <!-- Card 2: Goal 2 -->
-        <div class="card">
-            <input type="checkbox" id="goal2" class="more" aria-hidden="true">
-            <div class="content">
-                <div class="front">
-                    <div class="inner">
-                        <span class="card-number">2</span>
-                        <h2>Simple & Intuitive</h2>
-                        <label for="goal2" class="button" aria-hidden="true">
-                            Discover
-                        </label>
-                    </div>
-                </div>
-                <div class="back">
-                    <div class="inner">
-                        <p class="description">
-                            We aim for effortless navigation and clear information. No complex menus, just straightforward paths to what you need.
-                        </p>
-                        <label for="goal2" class="button return" aria-hidden="true">
-                            <i class="fas fa-arrow-left"></i>
-                        </label>
-                    </div>
-                </div>
-            </div>
+        <div class="card-face back">
+          <div class="text">
+            <p>The Tesla Model S Plaid redefines electric performance, offering breathtaking acceleration and cutting-edge autonomous tech. Minimalist interior, maximum speed.</p>
+            <label for="goal2" class="button return"><i class="fas fa-arrow-left"></i></label>
+          </div>
         </div>
-
-        <!-- Card 3: Goal 3 -->
-        <div class="card">
-            <input type="checkbox" id="goal3" class="more" aria-hidden="true">
-            <div class="content">
-                <div class="front">
-                    <div class="inner">
-                        <span class="card-number">3</span>
-                        <h2>Inspire & Connect</h2>
-                        <label for="goal3" class="button" aria-hidden="true">
-                            Reveal
-                        </label>
-                    </div>
-                </div>
-                <div class="back">
-                    <div class="inner">
-                        <p class="description">
-                            Our platform is designed to spark new thoughts and foster a sense of community. Share, learn, and grow together in a supportive environment.
-                        </p>
-                        <label for="goal3" class="button return" aria-hidden="true">
-                            <i class="fas fa-arrow-left"></i>
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 4: Goal 4 -->
-        <div class="card">
-            <input type="checkbox" id="goal4" class="more" aria-hidden="true">
-            <div class="content">
-                <div class="front">
-                    <div class="inner">
-                        <span class="card-number">4</span>
-                        <h2>Growth & Evolution</h2>
-                        <label for="goal4" class="button" aria-hidden="true">
-                            Explore
-                        </label>
-                    </div>
-                </div>
-                <div class="back">
-                    <div class="inner">
-                        <p class="description">
-                            We are continuously evolving, adding new features and content based on your feedback to ensure a fresh and enriching experience.
-                        </p>
-                        <label for="goal4" class="button return" aria-hidden="true">
-                            <i class="fas fa-arrow-left"></i>
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 5: Goal 5 -->
-        <div class="card">
-            <input type="checkbox" id="goal5" class="more" aria-hidden="true">
-            <div class="content">
-                <div class="front">
-                    <div class="inner">
-                        <span class="card-number">5</span>
-                        <h2>Sustainable & Mindful</h2>
-                        <label for="goal5" class="button" aria-hidden="true">
-                            Understand
-                        </label>
-                    </div>
-                </div>
-                <div class="back">
-                    <div class="inner">
-                        <p class="description">
-                            Our commitment extends to responsible practices, ensuring a positive impact on both our users and the digital landscape.
-                        </p>
-                        <label for="goal5" class="button return" aria-hidden="true">
-                            <i class="fas fa-arrow-left"></i>
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+
+    <!-- CARD 3 -->
+    <div class="card">
+      <input type="checkbox" id="goal3" class="more"/>
+      <div class="card-inner">
+        <div class="card-face front" style="background-image: url('images/ford-front.jpeg');">
+          <div class="text">
+            <span class="brand">FORD</span>
+            <h2>SHELBY GT500</h2>
+            <label for="goal3" class="button">View Details</label>
+          </div>
+        </div>
+        <div class="card-face back">
+          <div class="text">
+            <p>The Ford Mustang Shelby GT500 is an icon of raw American power. Its 700+ horsepower V8 delivers thrilling performance on every road.</p>
+            <label for="goal3" class="button return"><i class="fas fa-arrow-left"></i></label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="card">
+      <input type="checkbox" id="goal4" class="more"/>
+      <div class="card-inner">
+        <div class="card-face front" style="background-image: url('images/lambo-front.jpeg');">
+          <div class="text">
+            <span class="brand">LAMBO</span>
+            <h2>HURACAN EVO</h2>
+            <label for="goal4" class="button">View Details</label>
+          </div>
+        </div>
+        <div class="card-face back">
+          <div class="text">
+            <p>The Lamborghini Huracan EVO combines a V10 roar with stunning design. All-wheel drive and advanced aero make every ride unforgettable.</p>
+            <label for="goal4" class="button return"><i class="fas fa-arrow-left"></i></label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 5 -->
+    <div class="card">
+      <input type="checkbox" id="goal5" class="more"/>
+      <div class="card-inner">
+        <div class="card-face front" style="background-image: url('images/toyota-front.jpeg');">
+          <div class="text">
+            <span class="brand">TOYOTA</span>
+            <h2>SUPRA MK4</h2>
+            <label for="goal5" class="button">View Details</label>
+          </div>
+        </div>
+        <div class="card-face back">
+          <div class="text">
+            <p>The Supra MK4 is a tuner’s dream with its 2JZ engine and cult classic status. A JDM icon with endless potential and legacy.</p>
+            <label for="goal5" class="button return"><i class="fas fa-arrow-left"></i></label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
